@@ -216,12 +216,12 @@
       // image.height = aspYY;
       image.className = "";
 
-      if(document.URL == 'http://www.royalbits.com/post/special'){
-        image.className = "upload-photo";
-      }
-      // if(document.URL == 'http://localhost:8080/post/special'){
+      // if(document.URL == 'http://www.royalbits.com/post/special'){
       //   image.className = "upload-photo";
       // }
+      if(document.URL == 'http://localhost:8080/post/special'){
+        image.className = "upload-photo";
+      }
       else{
         image.className = "upload-manager-photo";
       }
@@ -243,18 +243,18 @@
 
       var ajax_url = '';
 
-      if(document.URL == 'http://www.royalbits.com/post/special'){
-        ajax_url = 'http://www.royalbits.com/post/upload';
-      }
-      else {
-        var ajax_url = 'http://www.royalbits.com/manager/upload';
-      }
-      // if(document.URL == 'http://localhost:8080/post/special'){
-      //   ajax_url = 'http://localhost:8080/post/upload';
+      // if(document.URL == 'http://www.royalbits.com/post/special'){
+      //   ajax_url = 'http://www.royalbits.com/post/upload';
       // }
       // else {
-      //   ajax_url = 'http://localhost:8080/manager/upload';
+      //   ajax_url = 'http://www.royalbits.com/manager/upload';
       // }
+      if(document.URL == 'http://localhost:8080/post/special'){
+        ajax_url = 'http://localhost:8080/post/upload';
+      }
+      else {
+        ajax_url = 'http://localhost:8080/manager/upload';
+      }
 
     	$.ajax({
         url: ajax_url,
