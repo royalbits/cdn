@@ -1,5 +1,14 @@
 /* Sticky footer styles
 -------------------------------------------------- */
+@font-face {
+    font-family: Seravek;
+    src: url('../fonts/Seravek-Bold.ttf');
+}
+
+div {
+    font-family: Seravek;
+}
+
 html {
   position: relative;
   min-height: 100%;
