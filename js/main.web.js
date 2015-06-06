@@ -57,8 +57,8 @@ $(document).ready(function() {
 //$("#headerCarousel").backstretch("https://farm4.staticflickr.com/3859/15174866990_13c724415b_b.jpg");
 //$("#footerCarousel").backstretch("https://farm3.staticflickr.com/2944/15361248622_6373a30509_b.jpg");
 
-$("#headerCarousel").backstretch("https://c1.staticflickr.com/1/427/18323086659_14108a1c4c_b.jpg");
-$("#footerCarousel").backstretch("https://c1.staticflickr.com/1/427/18323086659_14108a1c4c_b.jpg");
+$("#headerCarousel").backstretch("https://c1.staticflickr.com/1/365/18482945086_9d86b3875a_h.jpg");
+$("#footerCarousel").backstretch("https://c1.staticflickr.com/1/365/18482945086_9d86b3875a_h.jpg");
 
 $("[id^='collapse-']").on('shown.bs.collapse', function () {
     jQuery("[id^='list-group_']").mCustomScrollbar("scrollTo","bottom")
